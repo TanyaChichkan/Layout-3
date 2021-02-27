@@ -1,0 +1,207 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,p,ul{
+  margin:0;
+  padding:0;
+}
+
+
+.nav-link {
+  color:  white;
+}
+
+.hero {
+  height: 676px;
+  background-image: url('../../assets/img/header-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header {
+  background: linear-gradient(to right, #2d3170, #37295c);
+}
+
+.page-title {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+ /* min-height: 100%;
+ min-width: 100%; */
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.section-adv {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+h3 {
+  color: grey;
+}
+
+.section-title{
+  margin-bottom: 20px;
+}
+
+.section-subtitle::after{
+content:'';
+display: block;
+width:80px;
+height: 2px;
+background-color: grey;
+margin: 0 auto;
+margin-top: 15px;
+}
+
+.card-body{
+  background-color: white;
+}
+
+.card-title{
+  color: grey;
+}
+
+.card-text{
+  color:grey;
+  font-weight:300;
+}
+
+.card{
+  outline: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+
+/* .card-background {
+  z-index: -1;
+} */
+
+.btn-backg{
+  width: 293px;
+  height: 60px;
+  background-image: url('../img/touch-bg.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.section-pictures {
+  background-color: #ebebeb;
+}
+
+.title-slider{
+  color: black;
+  font-weight: 700;
+}
+
+.carousel-control-prev {
+  position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-145px);
+}
+
+.carousel-control-next {
+  position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(115px);
+}
+
+.rounded-circle{
+  width:10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: purple;
+  margin-right: 3px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: visible;
+}
+
+.card-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(-11%,10%);
+  z-index:-1;
+}
+
+.section-form {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-title{
+  color: white;
+}
+
+form input {
+  border:0;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+}
+
+input::placeholder{
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.btn-dark {
+  width: 182px;
+  height: 50px;
+}
+
+.btn-form {
+  width: 178px;
+  background-color: #202020;
+  border-radius: 0%;
+  color: white;
+}
+
+.page-footer{
+  background: linear-gradient(to right, #2e3375, #3b2b5b);
+}
+
+.footer-text{
+  color: white;
+}
+
+.mail-link{
+  display: flex;
+
+}
+
+.footer-link{
+  color: white;
+}
+
+.footer-sign{
+  color: white;
+  font-size:8px;
+}
